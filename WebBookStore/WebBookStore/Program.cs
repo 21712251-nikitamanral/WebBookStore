@@ -10,6 +10,7 @@ if (app.Environment.IsDevelopment())
 
 // We can use both method for routing
 app.MapDefaultControllerRoute();
+app.UseStaticFiles();
 //app.MapControllerRoute("Deafault", "{controller=Home}/{Action=Index}/{id}");
 
 //app.MapGet("/", () => "Hello Nikita");
